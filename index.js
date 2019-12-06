@@ -17,14 +17,14 @@ function showHappyResponse() {
 
 function showSillyResponse() {
   var sillyMsgs = ["Interesting response", "Ok!", "Me too."];
-  var randomize = Math.floor(Math.random()*happyMsgs.length);
+  var randomize = Math.floor(Math.random()* sillyMsgs.length);
   var show = sillyMsgs[randomize]
   message.innerText = show;
 }
 
 function showCryingResponse() {
   var cryingMsgs = ["Keep your head up.", "We can cry together!", "Do you want to talk?", "What can I do?"];
-  var randomize = Math.floor(Math.random()*happyMsgs.length);
+  var randomize = Math.floor(Math.random()* cryingMsgs.length);
   var show = cryingMsgs[randomize];
   message.innerText = show;
 }
