@@ -12,7 +12,7 @@ function showHappyResponse() {
   var randomize = Math.floor(Math.random()*happyMsgs.length);
   var show = happyMsgs[randomize];
   message.innerText = show;
-
+  
 }
 
 function showSillyResponse() {
